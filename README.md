@@ -1,1 +1,2 @@
-# bias_in_lifecycle
+# Supplementary material for paper on "Bias in model development lifecycle"
+
