@@ -1,5 +1,17 @@
 # Bias in Model Development Lifecycle Questionnaire
 
+**Project Title**: Bias in model development lifecycle questionnaire 
+
+**Lead researcher**: Michelle Seng Ah Lee (sal87@cam.ac.uk) 
+
+This questionnaire will go through an assessment to identify the potential biases in a model development lifecycle.
+Think of a model that you would like to assess for potential unfair bias and discrimination.
+Below are the biases and their definitions for your reference.
+
+![alt text](https://github.com/michelleslee/bias_in_lifecycle/blob/master/lifecyclebias.png?raw=true)
+
+![alt text](https://github.com/michelleslee/bias_in_lifecycle/blob/master/biasdefinitions.png?raw=true)
+
 ## A. KEI KRI design
  - [ ] **A.1 Model description**: Describe a model you would like to assess for potential unfair and discriminatory bias. Ex) a supervised machine learning model to predict whether a mortgage loan will default
  - [ ] **A.2 Positive impact: overall**: What positive impact can this model have on the target population? Ex) predicting default risk can help prevent unaffordable loans being approved 
