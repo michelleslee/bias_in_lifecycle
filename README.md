@@ -4,8 +4,12 @@
 
 **Lead researcher**: Michelle Seng Ah Lee (sal87@cam.ac.uk) 
 
-This questionnaire will go through an assessment to identify the potential biases in a model development lifecycle.
-Think of a model that you would like to assess for potential unfair bias and discrimination.
+This questionnaire will go through an assessment to identify the potential biases in a model development lifecycle that you would like to assess for potential unfair bias and discrimination.
+
+It is intended for initial risk identification to facillitate subsequent evaluation, quantification (likelihood/impact), and mitigation. By identifying the potential source of the bias risk, the questionnaire will allow for a more targeted design of a mitigation strategy. 
+
+The questionnaire is not intended to be a comprehensive, definitive standard for bias risk assessment; rather, it provides a starting point to further adapt and extend it to be customised to the use case and domain area. 
+
 Below are the biases and their definitions for your reference.
 
 ![alt text](https://github.com/michelleslee/bias_in_lifecycle/blob/master/lifecyclebias.png?raw=true)
