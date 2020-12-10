@@ -22,13 +22,14 @@ Below are the biases and their definitions for your reference.
  - [ ] **A.7 Negative impact: representational harm operationalisation**: Is there any representational harm (diminished identity)? Ex) for an image search algorithm for “CEO”, returning more men than women reinforces the bias in identity
  - [ ] **A.8 Negative impact: fundamental rights**: Are there any fundamental rights at stake? Ex) right to self-determination, liberty, due process of law, freedom of movement, privacy, freedom of thought, freedom of religion, freedom of expression, right of peaceful assembly, right to freedom of association
  - [ ] **A.9 Negative impact: operationalisation**: Can these objectives be measured and quantified? If yes, list how they can be formalised. Ex) unaffordable loan approval can be measured based on false negative rate (i.e. loans predicted to be repaid but defaulted), and greater financial inclusion can be measured as the total amount of loans given out  
+ - [ ] **A.10 Relevant regulations and laws (e.g. discrimination)**: What are the relevant regulations and laws that can help frame the risk assessment? For example, there are various anti-discrimination legislations and court cases. The definition of unlawful discrimination and the definition of a legally protected characteristic (e.g. race, gender) may vary across jurisdictions, e.g. as defined in the 2010 Equality Act in the UK, and by domain area, e.g. Equal Credit Opportunity Act in the US. Seek out relevant guidance from official documents and from internal legal / regulatory risk teams.
  
  Based on the answers above, think critically about the model's practical and ethical objectives, and when they may be in conflict with one another, understanding the prioritisation of and trade-offs between these objectives. 
  
  Below questions will align to each stage of the model development lifecycle. Answering yes indicates a risk that must be addressed, mitigated, and/or justified. 
 
 ## B. Design: historical/external bias
- - [ ] **B.1 History of discrimination**: Is there documented historical discrimination in the domain area against a protected class, as defined in the UK Equality Act? Ex) academic studies demonstrate lower mortgage approval rates for racial minorities in the US, especially black and Hispanic applicants. These are sub-groups to which special attention must be paid in testing for impact of the model.
+ - [ ] **B.1 History of discrimination**: Is there documented historical discrimination in the domain area against a protected class, as defined in A.10? Ex) academic studies demonstrate lower mortgage approval rates for racial minorities in the US, especially black and Hispanic applicants. These are sub-groups to which special attention must be paid in testing for impact of the model.
     - [ ] age 
     - [ ] disability 
     - [ ] gender reassignment 
