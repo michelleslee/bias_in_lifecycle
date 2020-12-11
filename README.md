@@ -4,7 +4,7 @@
 
 **Lead researcher**: Michelle Seng Ah Lee (sal87@cam.ac.uk) 
 
-This questionnaire will go through an assessment to identify the potential biases in a model development lifecycle that you would like to assess for potential unfair bias and discrimination.
+This questionnaire will go through an assessment to identify the potential unfair and unintended biases and discrimination in a model development lifecycle.
 
 It is intended for initial risk identification to facillitate subsequent evaluation, quantification (likelihood/impact), and mitigation. By identifying the potential source of the bias risk, the questionnaire will allow for a more targeted design of a mitigation strategy. 
 
