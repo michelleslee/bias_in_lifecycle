@@ -8,7 +8,9 @@ This questionnaire will go through an assessment to identify the potential biase
 
 It is intended for initial risk identification to facillitate subsequent evaluation, quantification (likelihood/impact), and mitigation. By identifying the potential source of the bias risk, the questionnaire will allow for a more targeted design of a mitigation strategy. 
 
-The questionnaire is not intended to be a comprehensive, definitive standard for bias risk assessment; rather, it provides a starting point to further adapt and extend it to be customised to the use case and domain area. 
+The questionnaire is not intended to be a comprehensive, definitive standard for bias risk assessment; rather, it provides a starting point to further adapt and extend it to be customised to the use case and domain area. Further guidance documents would be developed for practical implementation. 
+
+This risk evaluation stage may be used to assess the trade-offs in the model and justify its usage to key stakeholders, both internal (e.g. board) and external (e.g. customers, regulators). It may be used internally by the model development team with input from others, e.g. legal risk teams, by the internal audit / model validation team, or externally for an independent third-party assessment of the ethical risks of the model.
 
 Below are the biases and their definitions for your reference.
 
@@ -18,7 +20,7 @@ Below are the biases and their definitions for your reference.
 
 ## A. Background information
  - [ ] **A.1 Model description**: Describe a model you would like to assess for potential unfair and discriminatory bias. Ex) a supervised machine learning model to predict whether a mortgage loan will default
- - [ ] **A.2 Positive impact: overall**: What positive impact can this model have on the target population? This may include an explicit social impact as intended by the model (e.g. building a computer vision model to read sign language to increase service accessibility), or it could be associated with the efficiency of the business and market that trickles down into a positive result for the consumers, e.g. more precisely predicting default risk can help prevent unaffordable loans being approved.
+ - [ ] **A.2 Positive impact: overall**: What positive impact can this model have on the target population? This may include an explicit social impact as intended by the model (e.g. building a computer vision model to read sign language to increase service accessibility), or it could be associated with the efficiency of the business and market that trickles down into a positive result for the consumers, e.g. more precisely predicting default risk can help prevent unaffordable loans being approved. 
  - [ ] **A.3 Positive impact: performance**: What is the benefit of higher accuracy / precision for the target population? Ex) better credit risk evaluation model leads to greater financial inclusion, better hiring algorithm leads to overall higher employee performance / reduction in attrition
  - [ ] **A.4 Positive impact: operationalisation**: Can these objectives be measured and quantified? If yes, list how they can be formalised. Ex) unaffordable loan approval can be measured based on false negative rate (i.e. loans predicted to be repaid but defaulted), and greater financial inclusion can be measured as the total amount of loans given out 
  - [ ] **A.5 Negative impact: allocative harm**: What are any potential allocative harms (withholding of opportunities / resources)? Ex) model may be more likely to give loans to certain groups, e.g. race and gender, which would replicate and widen the societal inequalities 
