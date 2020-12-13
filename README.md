@@ -12,12 +12,6 @@ The questionnaire is not intended to be a comprehensive, definitive standard for
 
 This risk evaluation stage may be used to assess the trade-offs in the model and justify its usage to key stakeholders, both internal (e.g. board) and external (e.g. customers, regulators). It may be used internally by the model development team with input from others, e.g. legal risk teams, by the internal audit / model validation team, or externally for an independent third-party assessment of the ethical risks of the model.
 
-Below are the biases and their definitions for your reference.
-
-![alt text](https://github.com/michelleslee/bias_in_lifecycle/blob/master/lifecyclebias.png?raw=true)
-
-![alt text](https://github.com/michelleslee/bias_in_lifecycle/blob/master/biasdefinitions.png?raw=true)
-
 ## A. Background information
  - [ ] **A.1 Model description**: Describe a model you would like to assess for potential unfair and discriminatory bias. Ex) a supervised machine learning model to predict whether a mortgage loan will default
  - [ ] **A.2 Positive impact: overall**: What positive impact can this model have on the target population? This may include an explicit social impact as intended by the model (e.g. building a computer vision model to read sign language to increase service accessibility), or it could be associated with the efficiency of the business and market that trickles down into a positive result for the consumers, e.g. more precisely predicting default risk can help prevent unaffordable loans being approved. 
@@ -32,7 +26,13 @@ Below are the biases and their definitions for your reference.
  
  Based on the answers above, think critically about the model's practical and ethical objectives, and when they may be in conflict with one another, understanding the prioritisation of and trade-offs between these objectives. 
  
- Below questions will align to each stage of the model development lifecycle. Answering yes indicates a risk that must be addressed, mitigated, and/or justified. 
+ Below are the biases and their definitions for your reference.
+
+![alt text](https://github.com/michelleslee/bias_in_lifecycle/blob/master/biasdefinitions.png?raw=true)
+
+![alt text](https://github.com/michelleslee/bias_in_lifecycle/blob/master/lifecyclebias.png?raw=true)
+
+ Below questions will align to each stage of the model development lifecycle. Answering yes indicates a bias risk that must be addressed, mitigated, and/or justified. 
 
 ## B. Design: historical/external bias
  - [ ] **B.1 History of discrimination**: Is there documented historical discrimination in the domain area against a protected class, as defined in A.10? Ex) academic studies demonstrate lower mortgage approval rates for racial minorities in the US, especially black and Hispanic applicants. These are sub-groups to which special attention must be paid in testing for impact of the model.
