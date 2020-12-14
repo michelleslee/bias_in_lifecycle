@@ -6,7 +6,7 @@
 
 This questionnaire will go through an assessment to identify the potential unfair and unintended biases and discrimination in a model development lifecycle.
 
-It is intended for initial risk identification to facillitate subsequent evaluation, quantification (likelihood/impact), and mitigation. By identifying the potential source of the bias risk, the questionnaire will allow for a more targeted design of a mitigation strategy. 
+It is intended for initial risk identification to facilitate subsequent evaluation, quantification (likelihood/impact), and mitigation. By identifying the potential source of the bias risk, the questionnaire will allow for a more targeted design of a mitigation strategy. 
 
 The questionnaire is not intended to be a comprehensive, definitive standard for bias risk assessment; rather, it provides a starting point to further adapt and extend it to be customised to the use case and domain area. Further guidance documents would be developed for practical implementation. 
 
